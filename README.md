@@ -32,7 +32,7 @@ require_once("../../activecampaign-api-php/includes/ActiveCampaign.class.php");
 
 Refresh the page and you should see a link to ActiveCampaign, and an iFrame showing ActiveCampaign:
 
-![Screenshot of script result](https://github.com/ActiveCampaign/example-sso_embed/blob/master/screenshot1.jpg)
+![Screenshot of script result](https://raw.github.com/ActiveCampaign/example-sso_embed/master/screenshot1.jpg)
 
 ## Documentation and Links
 
