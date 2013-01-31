@@ -9,14 +9,14 @@ ActiveCampaign Custom API Script: Use SSO to link users to ActiveCampaign (bypas
 
 You can install **example-sso_embed** by downloading (or cloning) the source.
 
-Input your ActiveCampaign URL and API Key. Example below:
+Input your ActiveCampaign URL and API Key at the top. Example below:
 
 <pre>
 $api_url = "https://ACCOUNT.api-us1.com";
 $api_key = "4f3c6d12f0.....00ca273778dc893";
 </pre>
 
-Add values for the SSO variables at the top:
+Add values for the SSO variables at the top. Example below:
 
 <pre>
 $sso_ip_address = "127.0.0.1";
@@ -29,6 +29,10 @@ Make sure the path to the PHP library is correct:
 <pre>
 require_once("../../activecampaign-api-php/includes/ActiveCampaign.class.php");
 </pre>
+
+Refresh the page and you should see a link to ActiveCampaign, and an iFrame showing ActiveCampaign:
+
+![Screenshot of script result](https://github.com/ActiveCampaign/example-sso_embed/blob/master/screenshot1.jpg)
 
 ## Documentation and Links
 
