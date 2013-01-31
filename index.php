@@ -1,8 +1,8 @@
 <?php
 
-	$api_url = "https://mthommes6.api-us1.com";
-	$api_key = "4f3c6d12f03185b7ae5963916375de4201453f07f7d4ba64ea45a34b100ca273778dc893";
-	$sso_ip_address = "38.104.242.98"; // the IP address that the user will access ActiveCampaign from
+	$api_url = "";
+	$api_key = "";
+	$sso_ip_address = "127.0.0.1"; // the IP address that the user will access ActiveCampaign from
 	$sso_username = "user1"; // the username of the person requesting access
 	$sso_duration = "30"; // the duration of their access token (in minutes)
 
