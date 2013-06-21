@@ -25,6 +25,11 @@
 	$sso_user = $ac->api("auth/singlesignon?sso_addr={$sso_ip_address}&sso_user={$sso_username}&sso_duration={$sso_duration}");
 //$ac->dbg($sso_user);
 
+	if (!(int)$sso_user->success) {
+		echo $sso_user->error;
+		exit;
+	}
+
 	if (is_object($sso_user) && isset($sso_user->token)) {
 		$sso_token = $sso_user->token;
 
