@@ -3,7 +3,7 @@
 	$api_url = "";
 	$api_key = "";
 	$sso_ip_address = "127.0.0.1"; // the IP address that the user will access ActiveCampaign from
-	$sso_username = "user1"; // the username of the person requesting access
+	$sso_username = "user1"; // the username (or email address) of the person requesting access
 	$sso_duration = "30"; // the duration of their access token (in minutes)
 
 	define("ACTIVECAMPAIGN_URL", $api_url);
